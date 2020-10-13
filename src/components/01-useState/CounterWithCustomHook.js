@@ -9,7 +9,7 @@ import './counter.css';
 
 export const CounterWithCustomHook = () => {
 
-    const { state, increment, decrement, reset } =useCouter(100);
+    const { state, increment, decrement, reset } = useCouter(100);
 
     return (
         <>
